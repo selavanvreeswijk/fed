@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face { /*------ bron https://www.ffonts.net/Impacted.font.download -----*/
+    font-family:'Impacted';
+    src: url('../fonts/impacted.ttf') format('TrueType');
+}
+
+h1, h2, h3, h4, p, button{
+    font-family: 'Impacted', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+td{
+    width: 150vw;
+}
+
+/*-------------------------------eerste pagina----------------------------*/
+
+header{ /*------nav met drie buttons bovenaan--------*/ 
+    background-color: red;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+header button{
+    margin: 0.3em;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 100vw;
+}
+
+
+
+
+
+
+/*-------------------------------eerste pagina----------------------------*/
+
+/*-------------------------------tweede pagina----------------------------*/
+
+
+
+/*-------------------------------tweede pagina----------------------------*/
+
