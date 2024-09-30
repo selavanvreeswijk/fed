@@ -1,79 +1,77 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
 ## Jij
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Kick-off werkgroep</summary>
 
   ### Auteur:
   Sela van Vreeswijk
+
+  <img src="readme-images/ikmetbril.png" width="375px" alt="Ikzelf met een toegankelijkheidsbril">
 
   #### Je startniveau:
   Rood
 
   #### Je focus:
-  Responsive
+  Surface plane
  
 </details>
 
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Kick-off werkgroep</summary>
 
   ### Je opdracht:
   https://www.gangnamchicken.nl/
+
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="home1.jpg" width="375px" alt="omschrijving van de pagina">
-  <img src="home1.jpg" width="375px" alt="omschrijving van de pagina">
-  <img src="home1.jpg" width="375px" alt="omschrijving van de pagina">
-  <img src="home1.jpg" width="375px" alt="omschrijving van de pagina">
-  <img src="home1.jpg" width="375px" alt="omschrijving van de pagina">
-  <img src="home1.jpg" width="375px" alt="omschrijving van de pagina">
+  Home
+  <img src="./images/home1.png" width="375px" alt="Screenshot grootste gedeelte pagina">
+  <img src="./images/home2.jpg" width="375px" alt="Screenshot tekst pagina">
+  <img src="./images/home3.png" width="375px" alt="Screenshot tekst pagina">
+  <img src="./images/home4.png" width="375px" alt="Screenshot pagina">
+  <img src="./images/home5.png" width="375px" alt="Screenshot footer">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+  Franchise
+  <img src="./images/franchise1.png" width="375px" alt="Franchise grootste gedeelte pagina">
+  <img src="./images/franchise2.png" width="375px" alt="Franchise ondersteuning ondernemers">
+  <img src="./images/franchise3.png" width="375px" alt="Franchise ondersteuning ondernemers">
+  <img src="./images/franchise4.png" width="375px" alt="Franchise contactformulier">
+  <img src="./images/franchise5.png" width="375px" alt="Franchise contactformulier">
+  <img src="./images/franchise6.png" width="375px" alt="Franchise contactformulier">
+  <img src="./images/franchise7.png" width="375px" alt="Franchise footer">
+  <img src="./images/franchise8.png" width="375px" alt="Franchise footer">
+  <img src="./images/franchise9.png" width="375px" alt="Franchise footer">
 </details>
-
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <summary>2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
   - Ik werd een beetje panisch van de stem die de hele tijd voorlas wat er gebeurde
   - Hij vertaald Engelse steden zoals Seoul niet goed
   - De hele tijd link zeggen was apart
   - Sommige media was niet met alt-tekst omschreven
-
 </details>
-
-
 
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+  <summary>3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### De hele pagina: 
+  <img src="readme-images/breakdown.jpg" width="375px" alt="Breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### Dynamisch deel (bijv menu): 
+  <img src="readme-images/dynamisch1.png" width="375px" alt="Breakdown grid">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### Wellicht nog een dynamisch deel (bijv filter): 
+  <img src="readme-images/dynamisch2.png" width="375px" alt="Breakdown footer">
 
 </details>
 
@@ -84,66 +82,71 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Voor het eerste voortgangsgesprek heb ik de html van de eerste webpagina en een begin aan de tweede webpagina gemaakt. Bij de eerste webpagina was ik ook al een beetje begonnen met CSS en heb ik het font ingevoegd. HTML invullen ging goed, CSS vond ik nog iets lastiger omdat dat preciezer is. Al met al was ik blij met dit begin. 
 
+  <img src="./readme-images/voortgang1.png" width="375px" alt="Alle HTML overgenomen">
+  <img src="./readme-images/voortgang2.png" width="375px" alt="Oefenen met een table">
+  <img src="./readme-images/voortgang3.png" width="375px" alt="Proberen het juiste font te vinden...">
+  <img src="./readme-images/voortgang4.png" width="375px" alt="Code gebruiken van een table">
+  <img src="./readme-images/voortgang5.png" width="375px" alt="Code bovenste gedeelte van de website">
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Met mijn groepje heb ik geen agenda opgesteld voor de eerste meeting. Dit waren we vergeten. Individueel hebben we wel vragen voorbereidt en elkaar geholpen terwijl we 
+  wachtten totdat onze vragen beantwoordt konden worden.
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Wessel      | Julian        | Bibi  | Sela      |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Vragen over persoonlijke website     | Vragen over persoonlijke website                 | Vragen over persoonlijke website           | Vragen over persoonlijke website               |
+
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Tijdens de meeting heb ik vooral vragen gesteld over mijn code & antwoorden gekregen. Dit zijn de belangrijkste punten en bevindingen:
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - De ene pagina kan ik lang= eng en de andere lang= NL doen (ze zijn in verschillende talen getypt)
+  - Het font kan ik bij Network vinden
+  - Bij linkjes kan ik een # invullen of naar de main website doorlinken
+  - Plaatjes op de eerste pagina kan ik in een grid zetten
+  - Het button element hoef ik op al mijn pagina's helemaal niet te gebruiken, buttons zijn alleen voor op dezelfde pagina en niet wanneer ze worden doorgelinkt
 </details>
 
 
-
-
-
+ 
 ## Voortgang 2 (week 3)
 
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Deze week ben ik aan de slag gegaan met HTML & CSS. Het was een priegelwerkje, maar is uiteindelijk gelukt. Er waren een paar punten waar ik op vastliep maar na dat even te laten en er terug op te komen, lukte me dat! Ik ben trots op het eindresultaat en hoezeer het overeenkomt met de werkelijke website van gangnamchhicken.nl.
 
-  - body niet op class uitleggen hoe dat ging. zijn twee afbeeldingen in de map
+  <img src="./readme-images/voortgangweek2-1.png" width="375px" alt="Een vervelende witte balk wegwerken">
+  <img src="./readme-images/voortgangweek2-2.png" width="375px" alt="Een ingewikkelde structuur van een 'button' veranderen">
+  <img src="./readme-images/voortgangweek2-3.png" width="375px" alt="Leren hoe een formulier werkt">
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
+  Met mijn groepje hebben we individueel allemaal vragen gesteld over onze website aan Bregtje. 
+ Lara        | Tess  | Sela      |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Vragen over persoonlijke website            | Vragen over persoonlijke website           | Vragen over persoonlijke website               |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Bregtje heeft me geholpen met de volgende punten:
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Mijn strong element deed het niet. Wanneer ik <strong> op een stuk tekst zette, werd die niet goed ingeladen. Na samen een tijdje te kijken had ik blijkbaar het font nog niet goed geselecteerd. 
+  - In het beoordelingsformulier had ik gelezen dat je geen margins & paddings mag gebruiken om te positioneren. Bregtje heeft gecontroleerd en ik heb dat niet gedaan. 
+  - Bronnen hoeven niet per se APA
+  - Videos in een aparte map als images, voor de netheid (had ik eerst niet)
+  - Ik vroeg na waar ik precies een nav moet invoegen, hoeft alleen in de header
+  - Mijn social media icoontjes zijn met een icon via Font Awesome erin gezet. Ik heb nagevraagd of ik afbeeldingen kan gebruiken van het internet of dat ik dat moet leren. 
+  Ik kan beiden doen. Font Awesome wanneer ik meer tijd heb
+  - De footer op de originele websites doen gek op een Iphone 12 scherm. Op de homepagina kan je bijvoorbeeld niet naar beneden scrollen. Bregtje gaf aan dat ik deze gewoon kan verbeteren en normaal kan laten werken...
+  - Het formulier hoef ik niet werkend te maken - ik zou wel kunnen experimenteren met states. 
+  - Ik moet gaan uitproberen om geen class op mijn body te gebruiken. Met classes en sections ze te specificeren
 
 </details>
-
-
-
 
 
 ## Toegankelijkheidstest 2/2 (week 4)
@@ -166,27 +169,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Deze week ben ik aan de slag gegaan met het surface plane. Dit ging gestaag, veel frustratiemomenten en veel lessen die ik heb geleerd. Ik had eerst gekozen voor Responsive. Dit had ik eigenlijk blind gedaan omdat ik nog niet goed wist wat ik wilde. Toen ik aan de slag ging met het surface plane kwam ik erachter dat het surface plane me veel leuker lijkt. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Peter    | Mamush         | Lara    | Sela   |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Had geen vragen           | Had een paar vragen over de vijf dingen voor zijn surface plane                | Had een paar individuele vragen         | Ik had een paar vragen over ReadMe en de intersectionObserver              |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  Tijdens de meeting had ik een paar vragen. Hieruit kwamen de volgende punten:
+  - Mijn ReadMe bestand wilde niet uploaden op GitHub. Het bleek dat deze in een gehele andere map stond. 
+  - Het ReadMe bestand hoeft niet té uitgebreid ingevuld te worden, wel moet het alle toegankelijkheidstesten bevatten.
+  - IntersectionObserver is me opnieuw uitgelegd. Ik snap het nu beter
+  - Aangepast dat ik het van Responsive naar Surface plane ga doen
 </details>
 
 
@@ -227,8 +225,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://stackoverflow.com/questions/78246380/white-line-around-img-element-in-html
+  Ik kreeg een witte lijn onder een afbeelding die ik wegkreeg. Aan margins en padding lag het niet. Na het internet afstruinen kwam ik op deze webpagina terecht die het liet oplossen. 
+  2. https://fontawesome.com/icons/facebook?f=brands&s=solid
+  3. https://fontawesome.com/icons/instagram?f=brands&s=solid
+  4. https://fontawesome.com/icons/envelope?f=classic&s=regular
+  5. https://fontawesome.com/icons/phone?f=classic&s=solid 
+  6. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+  7. https://www.freeimages.com/icon/linkedin-512-black-5677035
+  8. https://www.w3schools.com/css/css_form.asp 
+  9. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+  10. https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme
+  11. https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop, mijn docent Danny heeft me geholpen met deze te vinden
+  12. https://sentry.io/answers/how-do-i-scroll-to-the-top-of-the-page-in-javascript/
+  13. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion 
+  14. https://medium.com/@ryanfinni/the-intersection-observer-api-practical-examples-7844dfa429e9, Danny heeft me geholpen deze bron te vinden
+
 
 </details>
