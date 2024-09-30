@@ -28,23 +28,23 @@
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home
-  <img src="./images/home1.png" width="375px" alt="Screenshot grootste gedeelte pagina">
-  <img src="./images/home2.jpg" width="375px" alt="Screenshot tekst pagina">
-  <img src="./images/home3.png" width="375px" alt="Screenshot tekst pagina">
-  <img src="./images/home4.png" width="375px" alt="Screenshot pagina">
-  <img src="./images/home5.png" width="375px" alt="Screenshot footer">
+  <img src="./readme-images/home1.png" width="375px" alt="Screenshot grootste gedeelte pagina">
+  <img src="./readme-images/home2.jpg" width="375px" alt="Screenshot tekst pagina">
+  <img src="./readme-images/home3.png" width="375px" alt="Screenshot tekst pagina">
+  <img src="./readme-images/home4.png" width="375px" alt="Screenshot pagina">
+  <img src="./readme-images/home5.png" width="375px" alt="Screenshot footer">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Franchise
-  <img src="./images/franchise1.png" width="375px" alt="Franchise grootste gedeelte pagina">
-  <img src="./images/franchise2.png" width="375px" alt="Franchise ondersteuning ondernemers">
-  <img src="./images/franchise3.png" width="375px" alt="Franchise ondersteuning ondernemers">
-  <img src="./images/franchise4.png" width="375px" alt="Franchise contactformulier">
-  <img src="./images/franchise5.png" width="375px" alt="Franchise contactformulier">
-  <img src="./images/franchise6.png" width="375px" alt="Franchise contactformulier">
-  <img src="./images/franchise7.png" width="375px" alt="Franchise footer">
-  <img src="./images/franchise8.png" width="375px" alt="Franchise footer">
-  <img src="./images/franchise9.png" width="375px" alt="Franchise footer">
+  <img src="./readme-images/franchise1.png" width="375px" alt="Franchise grootste gedeelte pagina">
+  <img src="./readme-images/franchise2.png" width="375px" alt="Franchise ondersteuning ondernemers">
+  <img src="./readme-images/franchise3.png" width="375px" alt="Franchise ondersteuning ondernemers">
+  <img src="./readme-images/franchise4.png" width="375px" alt="Franchise contactformulier">
+  <img src="./readme-images/franchise5.png" width="375px" alt="Franchise contactformulier">
+  <img src="./readme-images/franchise6.png" width="375px" alt="Franchise contactformulier">
+  <img src="./readme-images/franchise7.png" width="375px" alt="Franchise footer">
+  <img src="./readme-images/franchise8.png" width="375px" alt="Franchise footer">
+  <img src="./readme-images/franchise9.png" width="375px" alt="Franchise footer">
 </details>
 
 ## Toegankelijkheidstest 1/2 (week 1)
@@ -57,6 +57,12 @@
   - Hij vertaald steden in het Engels zoals Seoul niet goed
   - De hele tijd 'link' zeggen was apart
   - Sommige media was niet met alt-tekst omschreven
+
+  <img src="./readme-images/toegankelijkheidstest1.png" width="375px" alt="Toegankelijkheidstest pagina 1">
+  <img src="./readme-images/toegankelijkheidstest2.png" width="375px" alt="Toegankelijkheidstest pagina 2">
+  <img src="./readme-images/toegankelijkheidstest3.png" width="375px" alt="Toegankelijkheidstest pagina 3">
+  <img src="./readme-images/toegankelijkheidstest4.png" width="375px" alt="Toegankelijkheidstest pagina 4">
+  <img src="./readme-images/toegankelijkheidstest5.png" width="375px" alt="Toegankelijkheidstest pagina 5">
 </details>
 
 ## Breakdownschets (week 1)
@@ -65,13 +71,13 @@
   <summary>3<sup>e</sup> werkgroep</summary>
 
   ### De hele pagina: 
-  <img src="./readme-images/breakdown.jpg.jpg" width="375px" alt="Breakdown van de hele pagina">
+  <img src="./readme-images/breakdown.jpg" width="375px" alt="Breakdown van de hele pagina">
 
   ### Dynamisch deel (bijv menu): 
-  <img src="./readme-images/dynamisch1.pngdynamisch1.png" width="375px" alt="Breakdown grid">
+  <img src="./readme-images/dynamisch1.png" width="375px" alt="Breakdown grid">
 
   ### Wellicht nog een dynamisch deel (bijv filter): 
-  <img src="./readme-images/dynamisch2.png.png" width="375px" alt="Breakdown footer">
+  <img src="./readme-images/dynamisch2.png" width="375px" alt="Breakdown footer">
 
 </details>
 
@@ -171,8 +177,6 @@
   Deze week ben ik aan de slag gegaan met het surface plane. Dit ging gestaag, veel frustratiemomenten en veel lessen die ik heb geleerd. Ik had initieel gekozen voor Responsive. Dit had ik eigenlijk blind gedaan omdat ik nog niet goed wist wat ik wilde. Toen ik aan de slag ging met het surface plane kwam ik erachter dat het surface plane me veel leuker lijkt. 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
   | Peter    | Mamush         | Lara    | Sela   |
   | ---            | ---                | ---          | ---              |
   | Had geen vragen           | Had een paar vragen over de vijf dingen voor zijn surface plane                | Had een paar individuele vragen         | Ik had een paar vragen over ReadMe en de IntersectionObserver              |
@@ -193,22 +197,31 @@
 ## Eindgesprek (week 5)
 
 <details>
-  <summary>uitwerken voor eindgesprek</summary>
-
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="./readme-images/karakteristiek.png" width="375px" alt="Homepagina">
+  <img src="./readme-images/laden.png" width="375px" alt="Content laden">
+  <img src="./readme-images/hva.png" width="375px" alt="HvA">
+  <img src="./readme-images/dark.png" width="375px" alt="Dark Mode">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  Dingen die ik heb geleerd zijn bijvoorbeeld door middel van custom properties van kleurtjes een dark-mode of eigen thema toe te voegen.
+  <img src="./readme-images/hva.png" width="375px" alt="Een 'hva' thema invoegen">
+  <img src="./readme-images/dark-mode.png" width="375px" alt="CSS code dark-mode">
+  Verder heb vond ik het een mooie les om mijn header naar een andere flex-direction te laten veranderen wanneer je naar beneden scrollt. 
+  <img src="./readme-images/header.png" width="375px" alt="Header naar een andere flex-direction">
+  Ook vond ik het leuk om te leren werken met Font Awesome en die iconen te stijlen met animaties. 
+  <img src="./readme-images/fontawesome.png" width="375px" alt="Font Awesome leren">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Voor één gedeelte van mijn code is het me gelukt om de IntersectionObserver toe te voegen. Ik heb veel uitgeprobeerd bij de rest, maar dat is me helaas niet gelukt. Er waren best wat animaties die op die manier gepresenteerd werden op de originele website maar het is me dus helaas niet gelukt dat over te nemen. Hieronder een voorbeeld van mijn code die wel werkte. 
+  <img src="./readme-images/intersectionobserver.png" width="375px" alt="InterSection Observer Code">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Verder had ik willen proberen experimenteren met een website responsive ontwerpen bij extra tijd maar daar ben ik helaas niet aan toegekomen. 
+
+  Ook was dit een priegelwerkje om uit te vogelen, omdat alles een andere kant op staat als normaal. 
+  <img src="./readme-images/locaties.png" width="375px" alt="Locaties CSS">
+
+  Hetgeen dat ik het meest lastig vond was om weer met JavaScript aan de gang te gaan. Ik ben blij dat het grootste gedeelte uiteindelijk wel is gelukt!
 </details>
 
 
