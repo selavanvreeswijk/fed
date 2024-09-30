@@ -8,7 +8,7 @@
   ### Auteur:
   Sela van Vreeswijk
 
-  <img src="readme-images/ikmetbril.png" width="375px" alt="Ikzelf met een toegankelijkheidsbril">
+  <img src="./readme-images/ikmetbril.png" width="375px" alt="Ikzelf met een toegankelijkheidsbril">
 
   #### Je startniveau:
   Rood
@@ -54,8 +54,8 @@
 
   ### Bevindingen
   - Ik werd een beetje panisch van de stem die de hele tijd voorlas wat er gebeurde
-  - Hij vertaald Engelse steden zoals Seoul niet goed
-  - De hele tijd link zeggen was apart
+  - Hij vertaald steden in het Engels zoals Seoul niet goed
+  - De hele tijd 'link' zeggen was apart
   - Sommige media was niet met alt-tekst omschreven
 </details>
 
@@ -65,13 +65,13 @@
   <summary>3<sup>e</sup> werkgroep</summary>
 
   ### De hele pagina: 
-  <img src="readme-images/breakdown.jpg" width="375px" alt="Breakdown van de hele pagina">
+  <img src="./readme-images/breakdown.jpg.jpg" width="375px" alt="Breakdown van de hele pagina">
 
   ### Dynamisch deel (bijv menu): 
-  <img src="readme-images/dynamisch1.png" width="375px" alt="Breakdown grid">
+  <img src="./readme-images/dynamisch1.pngdynamisch1.png" width="375px" alt="Breakdown grid">
 
   ### Wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dynamisch2.png" width="375px" alt="Breakdown footer">
+  <img src="./readme-images/dynamisch2.png.png" width="375px" alt="Breakdown footer">
 
 </details>
 
@@ -118,7 +118,7 @@
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Deze week ben ik aan de slag gegaan met HTML & CSS. Het was een priegelwerkje, maar is uiteindelijk gelukt. Er waren een paar punten waar ik op vastliep maar na dat even te laten en er terug op te komen, lukte me dat! Ik ben trots op het eindresultaat en hoezeer het overeenkomt met de werkelijke website van gangnamchhicken.nl.
+  Deze week ben ik aan de slag gegaan met HTML & CSS. Het was een priegelwerkje, maar is uiteindelijk gelukt. Er waren een paar punten waar ik op vastliep maar na dat even te laten en er terug op te komen lukte me dat! Ik ben trots op het eindresultaat en hoezeer het overeenkomt met de werkelijke website van gangnamchhicken.nl.
 
   <img src="./readme-images/voortgangweek2-1.png" width="375px" alt="Een vervelende witte balk wegwerken">
   <img src="./readme-images/voortgangweek2-2.png" width="375px" alt="Een ingewikkelde structuur van een 'button' veranderen">
@@ -140,8 +140,7 @@
   - Bronnen hoeven niet per se APA
   - Videos in een aparte map als images, voor de netheid (had ik eerst niet)
   - Ik vroeg na waar ik precies een nav moet invoegen, hoeft alleen in de header
-  - Mijn social media icoontjes zijn met een icon via Font Awesome erin gezet. Ik heb nagevraagd of ik afbeeldingen kan gebruiken van het internet of dat ik dat moet leren. 
-  Ik kan beiden doen. Font Awesome wanneer ik meer tijd heb
+  - Mijn social media icoontjes zijn met een icon via Font Awesome erin gezet. Ik heb nagevraagd of ik afbeeldingen kan gebruiken van het internet of dat ik dat moet leren. Bregtje zei dat ik beide kan  doen. 
   - De footer op de originele websites doen gek op een Iphone 12 scherm. Op de homepagina kan je bijvoorbeeld niet naar beneden scrollen. Bregtje gaf aan dat ik deze gewoon kan verbeteren en normaal kan laten werken...
   - Het formulier hoef ik niet werkend te maken - ik zou wel kunnen experimenteren met states. 
   - Ik moet gaan uitproberen om geen class op mijn body te gebruiken. Met classes en sections ze te specificeren
@@ -169,14 +168,14 @@
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Deze week ben ik aan de slag gegaan met het surface plane. Dit ging gestaag, veel frustratiemomenten en veel lessen die ik heb geleerd. Ik had eerst gekozen voor Responsive. Dit had ik eigenlijk blind gedaan omdat ik nog niet goed wist wat ik wilde. Toen ik aan de slag ging met het surface plane kwam ik erachter dat het surface plane me veel leuker lijkt. 
+  Deze week ben ik aan de slag gegaan met het surface plane. Dit ging gestaag, veel frustratiemomenten en veel lessen die ik heb geleerd. Ik had initieel gekozen voor Responsive. Dit had ik eigenlijk blind gedaan omdat ik nog niet goed wist wat ik wilde. Toen ik aan de slag ging met het surface plane kwam ik erachter dat het surface plane me veel leuker lijkt. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | Peter    | Mamush         | Lara    | Sela   |
   | ---            | ---                | ---          | ---              |
-  | Had geen vragen           | Had een paar vragen over de vijf dingen voor zijn surface plane                | Had een paar individuele vragen         | Ik had een paar vragen over ReadMe en de intersectionObserver              |
+  | Had geen vragen           | Had een paar vragen over de vijf dingen voor zijn surface plane                | Had een paar individuele vragen         | Ik had een paar vragen over ReadMe en de IntersectionObserver              |
 
 
   ### Verslag van meeting
@@ -219,12 +218,6 @@
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
   1. https://stackoverflow.com/questions/78246380/white-line-around-img-element-in-html
   Ik kreeg een witte lijn onder een afbeelding die ik wegkreeg. Aan margins en padding lag het niet. Na het internet afstruinen kwam ik op deze webpagina terecht die het liet oplossen. 
   2. https://fontawesome.com/icons/facebook?f=brands&s=solid
