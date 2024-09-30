@@ -6,35 +6,39 @@
         <title>GANGNAM CHICKEN</title>
         <link href="./css/styles.css" rel="stylesheet">
         <link rel="icon" href="./images/favicon.webp">
+        <script src="https://kit.fontawesome.com/ab0a65fc90.js" crossorigin="anonymous"></script>    
     </head>
 
-    <body class="index">
-        <header>
+    <body>
+        <header class="i-header">
             <nav>
-                <img src="./images/header.png" alt="Header logo Gangnam Chicken">
+                <div>
+                    <img src="./images/header.png" alt="Header logo Gangnam Chicken">
+                </div>
 
-                <a href="#">Join us</a> 
-                <a href="franchise.html">Franchise</a> 
-                <a href="#">GC Wear</a> 
+                <div>
+                    <a href="#" class="green-background">Join us</a> <!--class is nodig voor animaties-->
+                    <a href="franchise.html" class="yellow-background">Franchise</a> <!--class is nodig voor animaties-->
+                    <a href="#" class="white-background">GC Wear</a> <!--class is nodig voor animaties-->
+                </div>
             </nav>
+
+            <p class="dark-mode">Dark</p>         
+            <p class="hva-mode">HvA</p>
         </header>
 
         <main>
-            <section> <!--1-->
-                <h1>
-                    Here we are, the ultimate Korean streetfood experience
-                </h1>
-    
-                <img src="./images/kip1.jpg" alt="Chicken">
+            <section class="i-hereweare"> <!--1-->
+                <h1>Here we are, the ultimate Korean streetfood experience</h1>    
+                <img src="./images/kip1.png" alt="Chicken">
             </section>
 
-            <section> <!--2-->
+            <section class="i-whatiskfc"> <!--2-->
                 <h2>What is KFC?</h2>
-
                 <img src="./images/what-is-kfc.png" alt="Korean text">
             </section>
 
-            <section> <!--3-->
+            <section class="i-mixkoreanstreetfood"> <!--3-->
                 <h3>Mix Korean street food with American soul food and you get: Korean Fried Chicken. 
                     Still not clear? Alright: It's tender chicken, fried twice for extra crunch and finished with an amazing coating, 
                     now stop reading and start tasting!</h3>
@@ -51,73 +55,70 @@
                 </div>
             </section>
   
-            <section> <!--4-->
+            <section class="i-gangnamwear"> <!--4-->
                 <h2>Have you seen our Gangnam Wear?</h2>
 
                 <div>
                     <img src="./images/webshop.png" alt="Webshop">
-
                     <a href="#">Go to our webshop</a>
                 </div>
             </section>
 
-            <section> <!--5-->
+            <section class="i-whatourcustomerssay"> <!--5-->
                 <h2>What our customers say</h2>
 
-                <h3>"Best chicken in town, especially their spicy Korean pepper sauze."</h3>
-                <h3>"The staff was very friendly and gave me pickled radish as a gift."</h3>
+                <article>
+                    <h3>"Best chicken in town, especially their spicy Korean pepper sauze."</h3>
+                    <h3>"The staff was very friendly and gave me pickled radish as a gift."</h3>
+                </article>
             </section>
 
-            <section> <!--6-->
+            <section class="i-fewofourdishes"> <!--6-->
                 <h3>Few of our dishes</h3>
 
-                <div class="container">
-                    <div class="item">
-                        <img src="./images/friedcauliflower.jpg" alt="Fried Cauliflower">
-                        <p>Fried Cauliflower</p>
-                    </div>
-
-                    <div class="item">
-                        <img src="./images/chickendrummettes.jpg" alt="Chicken Drumettes">
-                        <p>Chicken Drumettes</p>
-                    </div>
-
-                    <div class="item">
-                        <img src="./images/sweetandsourcauliflower.jpg" alt="Sweet and sour cauliflower">
-                        <p>Sweet and sour cauliflower</p>
-                    </div>
-
-                    <div class="item">
-                        <img src="./images/bonelesschicken.jpg" alt="Boneless Chicken">
-                        <p>Boneless Chicken</p>
-                    </div>
-
-                    <div class="item-large">
-                        <img src="./images/sweetandsourcabbage.jpg" alt="Sweet and sour cabbage">
-                        <p>Sweet and sour cabbage</p>
-                    </div>
-                </div>
-
-            </section>
-    
-            <section> <!--7-->
-                <h2>Eat in, take away or order at home</h2>
-            </section>
-
-            <section> <!--8-->
-                <h3>Who we are?</h3>
-                <img src="./images/who-we-are.png" alt="Koreaanse tekst met zwarte achtergrond">
-            </section>
-
-            <section> <!--9-->
                 <div>
+                    <article>
+                        <img src="./images/friedcauliflower.png" alt="Fried Cauliflower">
+                        <p>Fried Cauliflower</p>
+                    </article>
+
+                    <article>
+                        <img src="./images/chickendrummettes.png" alt="Chicken Drumettes">
+                        <p>Chicken Drumettes</p>
+                    </article>
+
+                    <article>
+                        <img src="./images/sweetandsourcauliflower.png" alt="Sweet and sour cauliflower">
+                        <p>Sweet and sour cauliflower</p>
+                    </article>
+
+                    <article>
+                        <img src="./images/bonelesschicken.png" alt="Boneless Chicken">
+                        <p>Boneless Chicken</p>
+                    </article>
+
+                    <article>
+                        <img src="./images/sweetandsourcabbage.png" alt="Sweet and sour cabbage">
+                        <p>Sweet and sour cabbage</p>
+                    </article>
+                </div>
+            </section>
+            
+            <!--7-->
+            <h2 class="i-eatin">Eat in, take away or order at home</h2>
+
+            <section class="i-whoweare"> <!--8-->
+                <h3>Who we are?</h3>
+                <img src="./images/who-we-are.png" alt="Koreaanse tekst">
+            </section>
+
+            <section class="i-justthreefriends"> <!--9-->
+                <article>
                     <h4>Just three friends who were looking for the best chicken in the world - and found it!
                         In the Gangnam district: the hottest food hood of Seoul. We went, we tasted, 
-                        we studied it to the bone and came back as Korean fried chicken masters. 
-                    </h4>
-        
+                        we studied it to the bone and came back as Korean fried chicken masters.</h4>
                     <p>Ready for some delivery?</p>
-                </div>
+                </article>
     
                 <div>
                     <a href="#">Amsterdam - Eerste Helmersstraat 251 
@@ -132,11 +133,10 @@
                 </div>
             </section>
 
-            <section> <!--10-->
-                <div class="how-it-works">
-                    <img src="./images/mensendieeten.jpg" alt="People who eat Gangnam Chicken">
+            <section class="i-howitworks"> <!--10-->
+                <div class="firstthreeblocks">
+                    <img src="./images/mensendieeten.png" alt="People who eat Gangnam Chicken">
                     <h2>How it works</h2>
-
                     <img src="./images/how-it-works.png" alt="Korean text 'How it works'"> 
                 </div>
 
@@ -173,36 +173,49 @@
                     </ul>
 
                     <div class="chickenandmeetsoon">
-                        <img src="./images/kipzwarteachtergrond.png" alt="Het Gangnam Chicken logo in wit, met zwarte achtergrond">
+                        <img src="./images/kiplogozonderachtergrond.png" alt="Het Gangnam Chicken logo in wit, met zwarte achtergrond">
                         <a href="#">Check our menu here</a>
                     </div>
                 </div>
     
-                <div>
+                <div class="blue-background">
                     <h2>Hope to meet you soon!</h2>
                 </div>
             </section>
 
-            <section>  <!--11-->
+            <aside> <!--11--> <!--toegevoegd voor betere toegankelijkheid-->
+                <i class="fa-solid fa-arrow-up"></i>
+                <p>Back to top</p>
+            </aside>
+
+            <section class="i-socials">  <!--12-->
                 <ul>
                     <li>
                         <a href="https://www.facebook.com/GangnamChickenNederland">
-                            <img src="./images/facebook.png" alt="Icon Facebook">
+                            <div> <!-- div toegevoegd omdat de animatie anders ook op de rand & achtergrond gingen -->
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/gangnam_chicken">
-                            <img src="./images/instagram.webp" alt="Icon Instagram">
+                            <div>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
                         </a>
                     </li>
                     <li>
                         <a href="mailto:info@gangnamchicken.nl">
-                            <img src="./images/mail.webp" alt="Icon mail">
+                            <div>
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
                         </a>
                     </li>
                     <li>
                         <a href="tel:088 335 5502">
-                            <img src="./images/phone.png" alt="Icon phone">
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
                         </a>
                     </li>
                 </ul>
