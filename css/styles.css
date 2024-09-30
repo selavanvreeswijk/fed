@@ -91,7 +91,7 @@
     --greenBackground:#351fb7;
 }
 
-h1, h2, h3, h4, p, a, footer, button{
+h1, h2, h3, h4, p, a, footer, button, figcaption{
     font-family: 'GT America', sans-serif; 
     text-transform: uppercase;
     letter-spacing: 0.01em;
@@ -753,10 +753,8 @@ video{
 
 .i-fewofourdishes h3{
     color: var(--textColorBlack2);
-    
     font-size: 7.5em;
     line-height: 0.8;
-
     padding: 1.1em;
 }
 
@@ -765,33 +763,32 @@ video{
     background-color: var(--whiteBackground);
 }
 
-.i-fewofourdishes div{ 
+.i-fewofourdishes div{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 5em;
-    
     margin-bottom: 14em;
 }
 
-.i-fewofourdishes div article{ 
+.i-fewofourdishes div figure{
     text-align: center;
 }
 
-.i-fewofourdishes div article img{ 
+.i-fewofourdishes div figure img{
     width: 100%;
 }
 
-.i-fewofourdishes div article:nth-child(5){ 
-    grid-column: span 2; 
+.i-fewofourdishes div figure:nth-child(5){
+    grid-column: span 2;
     text-align: center;
     align-self: center;
 }
 
-.i-fewofourdishes div article:nth-child(5) img{
+.i-fewofourdishes div figure:nth-child(5) img{
     width: 95vw;
 }
 
-.i-fewofourdishes div p{ 
+.i-fewofourdishes div figcaption{
     margin-top: 1.5em;
     font-size: 3em;
     line-height: 1.15;
@@ -831,7 +828,7 @@ video{
     font-family: 'Eina regular', sans-serif;
     text-transform: none;
     font-size: 0.9em;
-    
+
     color: var(--textColorBlack);
 }
 
@@ -859,6 +856,11 @@ input, textarea{ /* Voor de stijling van het invoerveld heb ik bron 8 gebruikt *
     margin-bottom: 35px;
 
     transition: border 0.1s ease-in;
+}
+
+label{
+    font-family: 'Eina regular', sans-serif;
+    font-size: 2em;
 }
 
 @media (prefers-reduced-motion){

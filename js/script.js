@@ -67,12 +67,12 @@ naarBovenScrollen.addEventListener('click', function(){
 
 // formulier versturen
 
-const knopKlikken = document.querySelector('button')
+const knopKlikken = document.querySelector('.f-incontactkomen button')
 const berichtVeranderen = document.querySelector('.f-incontactkomen p')
 const formVerwijderen = document.querySelector('form')
 
 knopKlikken.addEventListener('click', function(event){
-    event.preventDefault();  // bron: chatGPT. De button was eerst een a maar dan herlaadde de pagina
+    event.preventDefault();  // bron: chatGPT. De button was eerst een a=href maar dan herlaadde de pagina
 
     berichtVeranderen.textContent = 'Bedankt voor het contact opnemen! We komen zo snel mogelijk bij je terug.';
     formVerwijderen.style.display = 'none'; 

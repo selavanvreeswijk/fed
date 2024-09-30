@@ -51,7 +51,7 @@
                 <img src="./images/guymetkip.png" alt="Een telefoon en een man die kip eet">
             </div>
 
-            <section class="f-succesformule"> <!--3-->
+            <div class="f-succesformule"> <!--3-->
                 <article>
                     <h3>Succesvolle formule</h3>
                     <h4>Wat maakt Gangnam Chicken succesvol?</h4>
@@ -72,8 +72,8 @@
                         Terug in Amsterdam zetten ze deze kennis om in een succesformule. De juicy, tender en crispy chicken drumettes, wings en boneless smaken naar meer. Gangnam Chicken was geboren. 
                         Nu, met meerdere locaties in Amsterdam en Den Haag en vijf jaar van optimalisatie, is Gangnam Chicken klaar voor verdere groei.
                     </p>
-                </artcle>
-            </section>
+                </article>
+            </div>
     
             <section class="f-factsandfigures"> <!--4-->
                 <h2>Facts and figures</h2>
@@ -118,7 +118,7 @@
                 </ul>
             </section>
     
-            <section class="f-ondersteuningondernemers"> <!--5-->
+            <div class="f-ondersteuningondernemers"> <!--5-->
                 <article>   
                     <h3>Ondersteuning voor frachisenemers</h3>
                     <h4>Volop ondersteuning</h4>
@@ -153,7 +153,7 @@
                         Die kennis en ervaring delen zij graag met jou in trainingen en opleidingen voor jou en je team.
                     </p>
                 </article>
-            </section>
+            </div>
     
             <section class="f-incontactkomen"> <!--6-->
                 <div>
@@ -166,26 +166,28 @@
                         </p>
 
                         <form> <!--Bron 6-->
-                            <label>
-                                <h3>Persoonlijk</h3>
-                                <input type="text" placeholder="Voornaam">
-                                <input type="text" placeholder="tv">
-                                <input type="text" placeholder="Achternaam">
-                            </label>
-                      
-                            <label>
-                                <h3>Contact</h3>
-                                <input type="tel" placeholder="Telefoon">
-                                <input type="email" placeholder="E-mailadres">
-                            </label>
-                      
-                            <label>
-                                <h3>Bericht</h3>
-                                <textarea placeholder="Bericht"></textarea>
-                            </label>
+                            <h3>Persoonlijk</h3>
+                            <label for="first-name">Voornaam:</label> <!--Voor betere toegankelijkheid-->
+                            <input type="text" id="first-name" name="first-name" placeholder="Voornaam">
+                        
+                            <label for="middle-name">Tussenvoegsel:</label>
+                            <input type="text" id="middle-name" name="middle-name" placeholder="tv">
+                        
+                            <label for="last-name">Achternaam:</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Achternaam">
+                        
+                            <h3>Contact</h3>
+                            <label for="phone">Telefoon:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Telefoon">
+                        
+                            <label for="email">Mailadres:</label>
+                            <input type="email" id="email" name="email" placeholder="E-mailadres">
+                        
+                            <h3>Bericht</h3>
+                            <label for="message">Bericht:</label>
+                            <textarea id="message" name="message" placeholder="Bericht"></textarea>
                         </form>
-            
-                        <!-- <a href="#">Versturen</a> -->
+                        
                         <button>Versturen</button>
                     </div>
         
@@ -197,29 +199,29 @@
                 </div>
             </section>
             
-            <aside> <!--7--> <!--toegevoegd voor betere toegankelijkheid-->
-                <i class="fa-solid fa-arrow-up"></i>
+            <aside> <!--7--> <!--Bron 15, toegevoegd voor betere toegankelijkheid-->
+                <i class="fa-solid fa-arrow-up" aria-label="Scroll back to top"></i>
                 <p>Back to top</p>
             </aside>
             
             <div class="f-socials"> <!--8--> <!--Deze socials heb ik expres anders gelaten dan de socials op index. Nu is LinkedIn toegevoegd omdat het meer een 'businesspagina' is-->
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/GangnamChickenNederland">
+                        <a href="https://www.facebook.com/GangnamChickenNederland" aria-label="Our Facebook page">
                             <div>
                                 <i class="fa-brands fa-facebook"></i>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/gangnam_chicken">
+                        <a href="https://www.instagram.com/gangnam_chicken" aria-label="Our Instagram">
                             <div>  
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/company/gangnamchicken/">
+                        <a href="https://www.linkedin.com/company/gangnamchicken/" aria-label="Our LinkedIn>
                             <div>
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </div>

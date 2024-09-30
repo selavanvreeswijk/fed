@@ -27,15 +27,14 @@
   https://www.gangnamchicken.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Home
   <img src="./readme-images/home1.png" width="375px" alt="Screenshot grootste gedeelte pagina">
-  <img src="./readme-images/home2.jpg" width="375px" alt="Screenshot tekst pagina">
   <img src="./readme-images/home3.png" width="375px" alt="Screenshot tekst pagina">
   <img src="./readme-images/home4.png" width="375px" alt="Screenshot pagina">
-  <img src="./readme-images/home5.png" width="375px" alt="Screenshot footer">
+  <img src="./readme-images/franchise7.png" width="375px" alt="Footer">
+  <img src="./readme-images/franchise8.png" width="375px" alt="Footer">
+  <img src="./readme-images/franchise9.png" width="375px" alt="Footer">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Franchise
   <img src="./readme-images/franchise1.png" width="375px" alt="Franchise grootste gedeelte pagina">
   <img src="./readme-images/franchise2.png" width="375px" alt="Franchise ondersteuning ondernemers">
   <img src="./readme-images/franchise3.png" width="375px" alt="Franchise ondersteuning ondernemers">
@@ -246,6 +245,7 @@
   12. https://sentry.io/answers/how-do-i-scroll-to-the-top-of-the-page-in-javascript/
   13. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion 
   14. https://medium.com/@ryanfinni/the-intersection-observer-api-practical-examples-7844dfa429e9, Danny heeft me geholpen deze bron te vinden
+  15. https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
 
 
 </details>
