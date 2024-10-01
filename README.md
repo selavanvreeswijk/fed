@@ -160,6 +160,11 @@
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - De classes met een achtergrond lijken onnodig in het voorlezen maar deze waren voor stijling en animaties nodig
+  - Het was gemakkelijker om te navigeren door de website heen
+  - De algemene html structuur van de website is aanzienlijk verbeterd door bijvoorbeeld een betere alt bij plaatjes, duidelijkere headings en duidelijkere classes
+  - Sommige headings zijn nog steeds heel groot
+  - Elke link geeft goed aan waar naatoe gelinked wordt
 
   <img src="./readme-images/t-test1.png" width="375px" alt="Toegankelijkheidstest pagina 1">
   <img src="./readme-images/t-test2.png" width="375px" alt="Toegankelijkheidstest pagina 2">
