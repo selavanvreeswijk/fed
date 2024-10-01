@@ -132,10 +132,10 @@
 
   ### Agenda voor meeting
   Met mijn groepje hebben we individueel allemaal vragen gesteld over onze website aan Bregtje. 
- Lara        | Tess  | Sela      |
-  | ---            | ---                | ---          | ---              |
-  | Vragen over persoonlijke website            | Vragen over persoonlijke website           | Vragen over persoonlijke website               |
 
+  | Lara      | Tess        | Sela  |       |
+  | ---            | ---                | ---          | ---              |
+  | Vragen over persoonlijke website     | Vragen over persoonlijke website                 | Vragen over persoonlijke website           | -
 
   ### Verslag van meeting
   Bregtje heeft me geholpen met de volgende punten:
@@ -214,12 +214,11 @@
   <img src="./readme-images/dark.png" width="375px" alt="Dark Mode">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Dingen die ik heb geleerd zijn bijvoorbeeld door middel van custom properties van kleurtjes een dark-mode of eigen thema toe te voegen.
+  Dingen die ik heb geleerd zijn bijvoorbeeld door middel van custom properties van kleurtjes een dark-mode of eigen thema toe te voegen.   Verder heb vond ik het een mooie les om mijn header naar een andere flex-direction te laten veranderen wanneer je naar beneden scrollt.   Ook vond ik het leuk om te leren werken met Font Awesome en die iconen te stijlen met animaties.
+
   <img src="./readme-images/hva.png" width="375px" alt="Een 'hva' thema invoegen">
   <img src="./readme-images/dark-mode.png" width="375px" alt="CSS code dark-mode">
-  Verder heb vond ik het een mooie les om mijn header naar een andere flex-direction te laten veranderen wanneer je naar beneden scrollt. 
   <img src="./readme-images/header.png" width="375px" alt="Header naar een andere flex-direction">
-  Ook vond ik het leuk om te leren werken met Font Awesome en die iconen te stijlen met animaties. 
   <img src="./readme-images/fontawesome.png" width="375px" alt="Font Awesome leren">
 
   ### Dit was lastig/Is niet gelukt:
@@ -257,6 +256,4 @@
   13. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion 
   14. https://medium.com/@ryanfinni/the-intersection-observer-api-practical-examples-7844dfa429e9, Danny heeft me geholpen deze bron te vinden
   15. https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
-
-
 </details>
