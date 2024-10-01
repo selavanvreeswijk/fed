@@ -226,9 +226,13 @@
   <img src="./readme-images/intersectionobserver.png" width="375px" alt="InterSection Observer Code">
 
   Verder had ik willen proberen experimenteren met een website responsive ontwerpen bij extra tijd maar daar ben ik helaas niet aan toegekomen. 
+  <img src="./readme-images/zonderclassbody2.png" width="375px" alt="Locaties CSS">
+
 
   Ook was dit een priegelwerkje om uit te vogelen, omdat alles een andere kant op staat als normaal. 
   <img src="./readme-images/locaties.png" width="375px" alt="Locaties CSS">
+
+  Allereerst had ik ook een class op mijn body. Tijdens een voortgangsgesprek kwam eruit dat dat absoluut niet kan dus heb ik die weggehaald. Ik heb hierin veel geprobeerd met soortgelijke classes voor dezelfde stijling maken, alleen dit is me niet succesvol gelukt. Daarom heb ik nu veel verschillende classes op vrijwel elk onderdeel.
 
   Hetgeen dat ik het meest lastig vond was om weer met JavaScript aan de gang te gaan. Ik ben blij dat het grootste gedeelte uiteindelijk wel is gelukt!
 </details>

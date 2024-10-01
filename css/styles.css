@@ -19,7 +19,7 @@
     src: url('../fonts/eina-bold.woff2') format('TrueType');
 }
 
-:root{ /* bron 10 gebruikt voor het color scheme */
+:root{ /* bron 10 gebruikt voor het gebruik van color scheme */
     --blackBackground:#121212;
     --buttonBackground:#121212;
     --redBackground:red;
@@ -60,7 +60,7 @@
     --backgroundHeader:#121212;
 }
 
-.hva-theme{
+.hva-theme{ /* Ik heb hier veel custom properties gebruikt die op elkaar lijken voor specifieke stijling van elementen. Anders kwam het qua kleuren niet uit */
     --textColorBlack:white;
     --textColorBlack2:white;
     --colorLightGray:white;
@@ -107,12 +107,12 @@ img{
     object-fit: cover;
 }
 
-strong{ /*-------Bron : heeft Bregtje, de studentenassistent, me mee geholpen--------*/
+strong{ /*-------Bron: heeft Bregtje, de studentenassistent, me mee geholpen--------*/
     font-weight: bolder;
     font-family:'Eina bold';
 }
 
-main{ /*deze regel code was nodig voor het dark-theme */
+main{ /*Deze regel code was nodig voor het dark-theme */
     background-color: var(--whiteBackground);
 }
 
@@ -142,34 +142,27 @@ header a{
     color: var(--textColorBlack);
 }
 
-header p:nth-of-type(1){ /* dark-mode knop */
-    background-color: var(--whiteBackground);
+header p{
     color: var(--textColorBlack);
 
     position: fixed;
     z-index: 2;
     left: 0.5em;
-    top: 49em;
 
     font-size: 2em;
     text-align: center;
     padding: 1em;
     border-radius: 10em;
+}   
+
+header p:nth-of-type(1){ /* dark-mode knop */
+    background-color: var(--whiteBackground);
+    top: 49em; /* Iets naar boven geplaatst zodat de footer nog lees & klikbaar is */
 }
 
 header p:nth-of-type(2){ /* hva-mode knop */
     background-color: var(--colorYellow);
-    color: var(--textColorBlack);
-
-    position: fixed;
-    z-index: 2;
-    left: 0.5em;
-    top: 45em;
-
-    font-size: 2em;
-    text-align: center;
-    padding: 1em;
-    border-radius: 10em;
+    top: 45em; /* Idem dark-mode knop */
 }
 
 /*-index-*/
@@ -208,7 +201,7 @@ header p:nth-of-type(2){ /* hva-mode knop */
     }
 }
   
-.i-header-scroll{
+.i-header-scroll{ /* Voor overgang met js */
     position: fixed;
     z-index: 2;
     width: 100vw;
@@ -300,6 +293,13 @@ video{
     animation: omhoog 0.7s ease-out forwards;
 }
 
+@keyframes omhoog{
+    to{
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
 @media (prefers-reduced-motion){
     .i-hereweare h1{
         animation: omhoog 1.5s ease-out forwards;
@@ -308,13 +308,6 @@ video{
 
 .i-hereweare{
     background-color: var(--blackBackground);
-}
-
-@keyframes omhoog{
-    to{
-        opacity: 1;
-        transform: translateY(0); 
-    }
 }
 
 .i-hereweare img{
@@ -343,6 +336,7 @@ video{
 
     margin-bottom: 0.3em;
     opacity: 0;
+    
     animation: fadeIn 1s forwards;
 }
 
@@ -469,7 +463,7 @@ video{
     transition: opacity 1s ease; 
 }
 
-.f-rijafbeeldingen img.loaded{
+.f-rijafbeeldingen img.loaded{ /* Js animatie */
     opacity: 1; 
 }
 
