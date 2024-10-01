@@ -161,6 +161,12 @@
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  <img src="./readme-images/t-test1.png" width="375px" alt="Toegankelijkheidstest pagina 1">
+  <img src="./readme-images/t-test2.png" width="375px" alt="Toegankelijkheidstest pagina 2">
+  <img src="./readme-images/t-test3.png" width="375px" alt="Toegankelijkheidstest pagina 3">
+  <img src="./readme-images/t-test4.png" width="375px" alt="Toegankelijkheidstest pagina 4">
+  <img src="./readme-images/t-test5.png" width="375px" alt="Toegankelijkheidstest pagina 5">
+
 </details>
 
 
